@@ -1,11 +1,13 @@
+/* Reference: https://community.blackboard.com/ , Blog Post: Theme Gallery: University Of Southampton Theme 3.4 (for 3800.13) by Matthew Deeprose , URL: https://community.blackboard.com/blogs/14/326 */
+
 /* Review Status button changes */
 .button-5,
 .button-5:hover {
     padding-left: 0 !important;
     position: relative;
-    color: white;
+    color: #f7f7f7;
     border: white none;
-    background-color: white;
+    background-color: #f7f7f7;
 }
 .button-5:focus {
     outline: 3px solid #002E3B !important;
@@ -23,8 +25,8 @@ a[href*="javascript:markReviewed"]::after {
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: Arial;
-    color: #fff;
-    background: #00131D;
+    color: #ffffff;
+    background: #009641;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     text-align: center;
@@ -42,7 +44,7 @@ a:active[href*="javascript:markReviewed"]::after {
 
 
 a[href*="javascript:markUnreviewed"]::after {
-    content: "�" I have reviewed this content" !important;
+    content: "✓ I have reviewed this content" !important;
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
@@ -50,7 +52,7 @@ a[href*="javascript:markUnreviewed"]::after {
     border-radius: 5px;
     font-family: Arial;
     color: #ffffff;
-    background: #005C84;
+    background: #1D337C;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     text-align: center;
